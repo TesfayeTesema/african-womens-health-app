@@ -1,0 +1,20 @@
+.health-wellness {
+  padding: 2rem;
+}
+
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.article-item {
+  background: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.article-item h2 {
+  margin-top: 0;
+}

@@ -1,0 +1,37 @@
+.shop-container {
+  padding: 20px;
+}
+
+.items-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+}
+
+.item-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.item-card h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.item-card p {
+  margin: 5px 0;
+}
+.ordered-items {
+  float: right; /* Align to the right side of the page */
+  width: 30%; /* Adjust width as needed */
+  border: 1px solid #ccc;
+  padding: 10px;
+}

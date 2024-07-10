@@ -1,0 +1,40 @@
+.new-item-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.new-item-form h2 {
+  text-align: center;
+}
+
+.new-item-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.new-item-form input,
+.new-item-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.new-item-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-item-form button:hover {
+  background-color: #218838;
+}
